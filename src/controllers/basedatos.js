@@ -85,7 +85,7 @@ productos.forEach(function(producto){
     //creando una tarjeta
 
     let tarjeta = document.createElement("div")
-    tarjeta.classList.add("card","shadow","text-center","h-100")
+    tarjeta.classList.add("card","shadow","text-center","h-100", "p-2")
 
     //creando una imagen
 
@@ -111,13 +111,13 @@ productos.forEach(function(producto){
 
     //creando precio
 
-    let precio = document.createElement("p")
+    let precio = document.createElement("h2")
     precio.classList.add("text-dark")
     precio.textContent = `Precio: ${producto.precio}`
 
     //creando popularidad
 
-    let popularidad = document.createElement("p")
+    let popularidad = document.createElement("h3")
     popularidad.classList.add("text-dark")
     popularidad.textContent = `Popularidad: ${producto.popularidad}`
 
