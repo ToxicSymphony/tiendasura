@@ -11,7 +11,7 @@ contenedorProductos.addEventListener("click", function(evento){
         informacionDelProducto.popularidad = (evento.target.parentElement.querySelector("h3").textContent)
         informacionDelProducto.descripcion = (evento.target.parentElement.querySelector("p").textContent)
         informacionDelProducto.foto = (evento.target.parentElement.querySelector("img").src)
-
+        
         //guardando un objeto en memoria
         localStorage.setItem ("producto",JSON.stringify(informacionDelProducto))
 
@@ -20,3 +20,4 @@ contenedorProductos.addEventListener("click", function(evento){
     
     }
 })
+
