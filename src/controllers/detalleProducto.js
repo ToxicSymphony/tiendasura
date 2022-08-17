@@ -23,6 +23,8 @@ let descripcionInfo = document.getElementById("descripcionInfo");
 descripcionInfo.textContent = producto.descripcion;
 let precioInfo = document.getElementById("precioInfo");
 precioInfo.textContent = producto.precio;
+let popularidadInfo = document.getElementById("popularidad")
+popularidadInfo.textContent
 let imagenInfo = document.getElementById("imagenInfo");
 imagenInfo.src = producto.foto;
 
@@ -58,4 +60,30 @@ agregarProducto.addEventListener("click", function (evento) {
   pildora.textContent = cantidadCarrito;
 
 });
+
+// let estrellas = {
+//   estrella:1,
+//   estrella:2,
+//   estrella:3,
+//   estrella:4,
+//   estrella:5
+// }
+
+// let filaEstrellas = document.getElementById("fila")
+
+// estrellas.forEach(function(estrella){
+
+//   let columna = document.createElement("div")
+//   columna.classList.add("col")
+
+//   let icono = document.createElement("i")
+//   icono = classlist.add("bi-star-fill")
+//   icono.textContent = estrella.icono
+
+//   columna.appendChild(icono)
+//   filaEstrellas.appendChild(columna)
+
+
+
+// });
 
