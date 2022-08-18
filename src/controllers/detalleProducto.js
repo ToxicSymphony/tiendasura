@@ -24,11 +24,18 @@ descripcionInfo.textContent = producto.descripcion;
 let precioInfo = document.getElementById("precioInfo");
 precioInfo.textContent = producto.precio;
 let popularidadInfo = document.getElementById("popularidad")
-popularidadInfo.textContent
+popularidadInfo.textContent = producto.popularidad
 let imagenInfo = document.getElementById("imagenInfo");
 imagenInfo.src = producto.foto;
 
-//siempre que vaya a guardar en memoria locar debo colocar lo siguiente
+console.log(popularidadInfo)
+
+// let popularidadNumero = parseInt(popularidadInfo)
+
+// console.log(popularidadNumero)
+
+
+//siempre que vaya a guardar en memoria local debo colocar lo siguiente
 
 console.log(producto);
 
